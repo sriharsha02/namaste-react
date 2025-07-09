@@ -28,3 +28,34 @@
 - Hot Module Replacement (HMR), Tree Shaking, Asset Optimization (minification, compression, etc.)
 
 ---
+
+
+
+
+
+## 🛠️ Project Setup with Parcel (Step-by-Step)
+### 1. Initialize npm
+npm init -y
+
+### 2. Install React & ReactDOM
+npm install react react-dom
+
+### 3. Install Parcel bundler and rimraf (for cleaning cache)
+npm install --save-dev parcel rimraf
+
+### 4. Create the following files:
+ - index.html
+ - index.js
+ - App.js
+ -  Then set up basic boilerplate code inside them
+
+### 5. Add these scripts to your package.json:
+
+"scripts": {
+  "clean": "rimraf .parcel-cache dist",
+  "start": "npm run clean && parcel index.html"
+}
+
+
+### 6. Run the project
+npm start
