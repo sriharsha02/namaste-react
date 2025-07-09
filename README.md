@@ -15,3 +15,4 @@ In this episode, I set up a basic React project using the **CDN method**, withou
 - Rendering the tree using `ReactDOM.createRoot().render()`
 
 ---
+    
