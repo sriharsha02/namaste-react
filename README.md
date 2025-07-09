@@ -1,8 +1,5 @@
 # 🚀 Namaste React – Episode 01: Inception
 
-This is the first assignment of the **Namaste React** course by Akshay Saini.  
-In this episode, I set up a basic React project using the **CDN method**, without any bundlers like Webpack or Vite.
-
 ---
 
 ## 📚 Topics Covered
@@ -15,4 +12,19 @@ In this episode, I set up a basic React project using the **CDN method**, withou
 - Rendering the tree using `ReactDOM.createRoot().render()`
 
 ---
-    
+
+# 🚀 Namaste React – Episode 02: Igniting Our App
+
+---
+
+## 📚 Topics Covered
+
+- How to set up a React project using **Parcel**
+- What `npx`, `npm init`, and `npm install` do
+- Difference between `dependencies` and `devDependencies`
+- What `node_modules`, `package.json`, `package-lock.json`, and `.gitignore` are
+- Entry point: why we use `index.js` with `<script type="module">`
+- Using `ReactDOM.createRoot()` and `.render()`
+- Hot Module Replacement (HMR), Tree Shaking, Asset Optimization (minification, compression, etc.)
+
+---
